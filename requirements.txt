@@ -1,0 +1,2 @@
+# Core registry monitoring uses Python standard library modules.
+# Additional dependencies will be added as the project is developed.

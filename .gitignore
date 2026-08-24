@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+
+# VS Code
+.vscode/
+
+# Local registry data
+baseline/*
+logs/*
+reports/*
+
+# Local configuration
+config/local_config.json
+
+# Python cache
+.pytest_cache/
+
+# OS files
+Thumbs.db
+.DS_Store

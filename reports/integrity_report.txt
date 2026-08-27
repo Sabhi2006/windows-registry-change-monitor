@@ -1,0 +1,34 @@
+WINDOWS REGISTRY INTEGRITY REPORT
+================================================================================
+Scan time: 2026-08-27T21:03:33.395964+05:30
+================================================================================
+
+KEY: HKCU_Run
+PATH: Software\Microsoft\Windows\CurrentVersion\Run
+--------------------------------------------------------------------------------
+STATUS: NO CHANGES DETECTED
+
+KEY: HKCU_RunOnce
+PATH: Software\Microsoft\Windows\CurrentVersion\RunOnce
+--------------------------------------------------------------------------------
+STATUS: NO CHANGES DETECTED
+
+KEY: HKLM_Run
+PATH: Software\Microsoft\Windows\CurrentVersion\Run
+--------------------------------------------------------------------------------
+STATUS: NO CHANGES DETECTED
+
+KEY: HKLM_RunOnce
+PATH: Software\Microsoft\Windows\CurrentVersion\RunOnce
+--------------------------------------------------------------------------------
+STATUS: NO CHANGES DETECTED
+
+================================================================================
+INTEGRITY SUMMARY
+================================================================================
+Added values    : 0
+Modified values : 0
+Deleted values  : 0
+Total changes   : 0
+Integrity status : PASS
+================================================================================

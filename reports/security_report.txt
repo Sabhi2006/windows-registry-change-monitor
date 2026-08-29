@@ -1,0 +1,97 @@
+================================================================================
+WINDOWS REGISTRY SECURITY REPORT
+================================================================================
+
+--------------------------------------------------------------------------------
+Registry Key : HKCU_Run
+Path         : Software\Microsoft\Windows\CurrentVersion\Run
+Name         : OneDrive
+Data         : "C:\Users\sabhi\AppData\Local\Microsoft\OneDrive\OneDrive.exe" /background
+Risk         : LOW
+Reason       : Matched '\appdata\local\'
+--------------------------------------------------------------------------------
+Registry Key : HKCU_Run
+Path         : Software\Microsoft\Windows\CurrentVersion\Run
+Name         : Discord
+Data         : "C:\Users\sabhi\AppData\Local\Discord\Update.exe" --processStart Discord.exe
+Risk         : LOW
+Reason       : Matched '\appdata\local\'
+--------------------------------------------------------------------------------
+Registry Key : HKCU_Run
+Path         : Software\Microsoft\Windows\CurrentVersion\Run
+Name         : EpicGamesLauncher
+Data         : "C:\Program Files (x86)\Epic Games\Launcher\Portal\Binaries\Win64\EpicGamesLauncher.exe" -silent -launchcontext=boot
+Risk         : SAFE
+Reason       : No suspicious pattern
+--------------------------------------------------------------------------------
+Registry Key : HKCU_Run
+Path         : Software\Microsoft\Windows\CurrentVersion\Run
+Name         : GoogleChromeAutoLaunch_F04F8BBA6829A4B65E6E7E5EAF67BA65
+Data         : "C:\Program Files\Google\Chrome\Application\chrome.exe" --no-startup-window /prefetch:5
+Risk         : SAFE
+Reason       : No suspicious pattern
+--------------------------------------------------------------------------------
+Registry Key : HKCU_Run
+Path         : Software\Microsoft\Windows\CurrentVersion\Run
+Name         : Adobe Acrobat Synchronizer
+Data         : "C:\Program Files\Adobe\Acrobat DC\Acrobat\AdobeCollabSync.exe"
+Risk         : SAFE
+Reason       : No suspicious pattern
+--------------------------------------------------------------------------------
+Registry Key : HKCU_Run
+Path         : Software\Microsoft\Windows\CurrentVersion\Run
+Name         : Claude
+Data         : "C:\Users\sabhi\AppData\Local\AnthropicClaude\claude.exe" --startup
+Risk         : LOW
+Reason       : Matched '\appdata\local\'
+--------------------------------------------------------------------------------
+Registry Key : HKCU_Run
+Path         : Software\Microsoft\Windows\CurrentVersion\Run
+Name         : MicrosoftEdgeAutoLaunch_547279A8E9E5224492153BFA75AC87F3
+Data         : "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --win-session-start
+Risk         : SAFE
+Reason       : No suspicious pattern
+--------------------------------------------------------------------------------
+Registry Key : HKCU_Run
+Path         : Software\Microsoft\Windows\CurrentVersion\Run
+Name         : CanvaAutoLaunchAvailabilityCheckAgent
+Data         : "C:\Users\sabhi\AppData\Local\Programs\Canva\Canva.exe" --start-availability-check-agent
+Risk         : LOW
+Reason       : Matched '\appdata\local\'
+--------------------------------------------------------------------------------
+Registry Key : HKCU_Run
+Path         : Software\Microsoft\Windows\CurrentVersion\Run
+Name         : Mathworks Service Host
+Data         : "C:\Users\sabhi\AppData\Local\MathWorks\ServiceHost\v2026.8.0.4\bin\win64\MathWorksServiceHost.exe" service --realm-id companion@prod@production
+Risk         : LOW
+Reason       : Matched '\appdata\local\'
+--------------------------------------------------------------------------------
+Registry Key : HKLM_Run
+Path         : Software\Microsoft\Windows\CurrentVersion\Run
+Name         : SecurityHealth
+Data         : %windir%\system32\SecurityHealthSystray.exe
+Risk         : SAFE
+Reason       : No suspicious pattern
+--------------------------------------------------------------------------------
+Registry Key : HKLM_Run
+Path         : Software\Microsoft\Windows\CurrentVersion\Run
+Name         : RtkAudUService
+Data         : "C:\Windows\System32\DriverStore\FileRepository\realtekservice.inf_amd64_2b63610c0056caa8\RtkAudUService64.exe" -background
+Risk         : SAFE
+Reason       : No suspicious pattern
+--------------------------------------------------------------------------------
+Registry Key : HKLM_Run
+Path         : Software\Microsoft\Windows\CurrentVersion\Run
+Name         : Autodesk Access
+Data         : "C:\Program Files\Autodesk\AdODIS\V1\Setup\AdskAccessCore.exe" --minimizedUi
+Risk         : SAFE
+Reason       : No suspicious pattern
+
+================================================================================
+SECURITY SUMMARY
+================================================================================
+Safe entries : 7
+Low risk     : 5
+Medium risk  : 0
+High risk    : 0
+================================================================================

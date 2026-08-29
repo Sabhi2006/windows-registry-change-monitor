@@ -1,12 +1,15 @@
 WINDOWS REGISTRY INTEGRITY REPORT
 ================================================================================
-Scan time: 2026-08-29T12:44:42.836917+05:30
+Scan time: 2026-08-29T14:18:17.210101+05:30
 ================================================================================
 
 KEY: HKCU_Run
 PATH: Software\Microsoft\Windows\CurrentVersion\Run
 --------------------------------------------------------------------------------
-STATUS: NO CHANGES DETECTED
+
+[ADDED VALUES]
+Name: RegistryMonitor_Test
+New : C:\Windows\System32\notepad.exe
 
 KEY: HKCU_RunOnce
 PATH: Software\Microsoft\Windows\CurrentVersion\RunOnce
@@ -26,9 +29,9 @@ STATUS: NO CHANGES DETECTED
 ================================================================================
 INTEGRITY SUMMARY
 ================================================================================
-Added values    : 0
+Added values    : 1
 Modified values : 0
 Deleted values  : 0
-Total changes   : 0
-Integrity status : PASS
+Total changes   : 1
+Integrity status : CHANGES DETECTED
 ================================================================================

@@ -16,10 +16,8 @@ A Python-based defensive cybersecurity tool for monitoring selected Windows Regi
 - Python 3.12
 - Windows Registry
 - Python winreg
-- hashlib
 - JSON
 - PowerShell
-- Streamlit
 
 ## Project Status
 

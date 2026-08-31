@@ -17,7 +17,9 @@ A Python-based defensive cybersecurity tool for monitoring selected Windows Regi
 - Windows Registry
 - Python winreg
 - JSON
+- Logging
 - PowerShell
+- Windows Task Scheduler
 
 ## Project Status
 
